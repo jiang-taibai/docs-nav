@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'JetBrainsMono-Regular';
+    src: url('https://cdn.taibai.cloud/docsify/uav-counting-investigation-report/src/font/jet-brains-mono/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
+    url('https://cdn.taibai.cloud/docsify/uav-counting-investigation-report/src/font/jet-brains-mono/woff/JetBrainsMono-Regular.woff') format('woff')
+}
+
+/* 覆写所有字体 */
+* {
+    font-family: 'JetBrainsMono-Regular', 'Microsoft YaHei', 'San Francisco', Arial, 'Helvetica Neue', Helvetica, sans-serif !important;
+}
+
+body {
+    background-image: url("background/y-so-serious-white.png");
+    background-repeat: repeat;
+    background-color: #FFFFFF;
+    padding: 20px;
+}
